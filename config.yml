@@ -13,19 +13,9 @@ VoteParty:
   times: 30
   pre-start:
     count-down: 10
-    message:
-    - ""
-    - ""
   start:
     commands:
       '1':
         chance: 50
         commands:
         - eco give {player} 1500
-    message:
-    - ""
-    - ""
-  end:
-    message:
-    - ""
-    - ""
